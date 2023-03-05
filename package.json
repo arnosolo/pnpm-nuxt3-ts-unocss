@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build --dotenv .env.prod",
+    "build:dev": "nuxt build --dotenv .env.dev",
+    "dev": "nuxt dev --dotenv .env.dev",
+    "generate": "nuxt generate --dotenv .env.prod",
+    "generate:dev": "nuxt generate --dotenv .env.dev",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.36.0",
+    "@iconify-json/ic": "^1.1.13",
+    "@types/node": "^18.14.6",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@unocss/nuxt": "^0.50.3",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^34.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.1.2",
+    "nuxt": "^3.2.3",
+    "typescript": "*"
+  }
+}
